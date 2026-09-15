@@ -1,0 +1,54 @@
+{
+  "name": "@aemrezorlu/zod-contract-auth",
+  "version": "0.1.0",
+  "description": "zod-contract plugin: auth/security schemes (http + apiKey) and per-operation public override.",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "license": "MIT",
+  "keywords": [
+    "zod",
+    "openapi",
+    "openapi-3",
+    "auth",
+    "security",
+    "bearer",
+    "api-key",
+    "zod-contract"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dEMonaRE/zod-contract-auth.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dEMonaRE/zod-contract-auth/issues"
+  },
+  "homepage": "https://github.com/dEMonaRE/zod-contract-auth#readme",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "test": "vitest run"
+  },
+  "peerDependencies": {
+    "@aemrezorlu/zod-contract": "^0.3.0"
+  },
+  "devDependencies": {
+    "@aemrezorlu/zod-contract": "file:../../../../zod-contract",
+    "@types/node": "^20.16.0",
+    "tsx": "^4.20.0",
+    "typescript": "^5.6.0",
+    "vitest": "^2.1.0"
+  },
+  "dependencies": {
+    "yaml": "^2.9.1"
+  }
+}

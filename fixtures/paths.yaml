@@ -1,0 +1,10 @@
+paths:
+  /health:
+    get:
+      summary: Health check
+  /users:
+    get:
+      summary: List users
+  /internal/keys:
+    get:
+      summary: List API keys
