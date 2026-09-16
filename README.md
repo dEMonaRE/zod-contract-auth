@@ -12,7 +12,7 @@ deferred to v0.2.
 npm install --save-dev @aemrezorlu/zod-contract-auth
 ```
 
-Peer dep: `@aemrezorlu/zod-contract` `^0.3.0`.
+Peer dep: `@aemrezorlu/zod-contract` `^0.4.0`.
 
 ## Use
 
